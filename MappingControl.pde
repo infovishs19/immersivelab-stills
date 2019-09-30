@@ -1,12 +1,10 @@
-// video mapping
-int canvasW = 7680;
-int canvasH = 1080;
+
 MappingControl mappingControl;
 
 void
 setupVideoMapping()
 {
-  canvas = createGraphics(canvasW,canvasH,P3D);
+  
   mappingControl = new MappingControl(this, sketchName);
 }
 
